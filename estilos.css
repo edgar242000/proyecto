@@ -1,11 +1,98 @@
         body { 
-        color: #333;
+        color: #a09999;
         text-align: center;
         font-family: "Arial";
         font-size: 16px;
         margin: 0;    
         padding: 0;
         }
+
+        /* Encabezado */
+        #inicio {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            }
+  
+            #inicio img  {    
+            width: 100px;
+            height: 100px;
+            border-radius: 25%;
+            }
+  
+            #inicio h1 {
+            margin: 0;
+            font-size: 2.5em;
+            }
+  
+            #inicio p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            }
+
+            /*Estilos generales*/
+          #biografia {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #8B0000;
+            }
+  
+            /*estilo seccion de proyectos*/
+            #proyectos {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #4B69FF;
+            }
+            #proyectos ul {
+            list-style-type: none;
+            }
+
+            /*estilos seccion habilidades*/
+          #habilidades {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #0b6e0b;
+            }
+            #habilidades ul {
+            list-style-type: none;
+            }
+            
+            /*estilo seccion contacto*/
+            #contacto {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            background-color: #A8D8EA;
+            }
+            #contacto ul {
+            list-style-type: none;
+            }
+
+                /* Barra de navegación */
+                nav ul {
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    background-color: #35424a;
+                    margin: 0;
+                    }
+        
+                    nav li {
+                    margin: 0 20px;
+                    }
+        
+                    nav a {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.1em;
+                    transition: color 0.3s;
+                    }
+        
+                    nav a:hover {
+                    color: #ff9800;
+                    } 
+
 
 #cabecera {
     background: #33a;
